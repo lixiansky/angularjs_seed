@@ -1,0 +1,190 @@
+﻿{
+  "dataList": [
+    {
+      "menuName": "配置管理",
+      "menuUrl": "",
+      "subMenu": [
+        {
+          "menuName": "属性管理",
+          "menuUrl": "attr.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "结构管理",
+          "menuUrl": "struct.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "关系类型",
+          "menuUrl": "cfgRelation.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "收费站管理",
+          "menuUrl": "tollgate.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "监控室管理",
+          "menuUrl": "monitoring.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "数据字典",
+          "menuUrl": "dictionary.list",
+          "subMenu": []
+        }
+      ]
+    },
+    {
+      "menuName": "资产管理",
+      "menuUrl": "",
+      "subMenu": [
+        {
+          "menuName": "资产维护",
+          "menuUrl": "capital.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "关系维护",
+          "menuUrl": "relation.list",
+          "subMenu": []
+        }
+      ]
+    },
+    {
+      "menuName": "资产领用",
+      "menuUrl": "",
+      "subMenu": [
+        {
+          "menuName": "领用登记",
+          "menuUrl": "receive.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "领用查询",
+          "menuUrl": "receiveQuery.list",
+          "subMenu": []
+        }
+      ]
+    },
+    {
+      "menuName": "资产报废",
+      "menuUrl": "",
+      "subMenu": [
+        {
+          "menuName": "报废登记",
+          "menuUrl": "scrap.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "报废查询",
+          "menuUrl": "scrapQuery.list",
+          "subMenu": []
+        }
+      ]
+    },
+    {
+      "menuName": "资产调拨",
+      "menuUrl": "",
+      "subMenu": [
+        {
+          "menuName": "调拨登记",
+          "menuUrl": "allocation.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "调拨查询",
+          "menuUrl": "allocationQuery.list",
+          "subMenu": []
+        }
+      ]
+    },
+    {
+      "menuName": "资产借用归还",
+      "menuUrl": "",
+      "subMenu": [
+        {
+          "menuName": "借用登记",
+          "menuUrl": "borrow.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "归还登记",
+          "menuUrl": "ciReturn.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "归还查询",
+          "menuUrl": "returnQuery.list",
+          "subMenu": []
+        }
+      ]
+    },
+    {
+      "menuName": "维修管理",
+      "menuUrl": "",
+      "subMenu": [
+        {
+          "menuName": "维修登记",
+          "menuUrl": "repair.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "维修查询",
+          "menuUrl": "repairQuery.list",
+          "subMenu": []
+        }
+      ]
+    },
+    {
+      "menuName": "出入库",
+      "menuUrl": "",
+      "subMenu": [
+        {
+          "menuName": "入库登记",
+          "menuUrl": "storage.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "出库登记",
+          "menuUrl": "outStore.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "入库查询",
+          "menuUrl": "inStoreQuery.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "出库查询",
+          "menuUrl": "outStoreQuery.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "库存查询",
+          "menuUrl": "storeQuery.list",
+          "subMenu": []
+        }
+      ]
+    },
+    {
+      "menuName": "变更管理",
+      "menuUrl": "",
+      "subMenu": [
+        {
+          "menuName": "变更历史",
+          "menuUrl": "alterHistory.list",
+          "subMenu": []
+        },
+        {
+          "menuName": "变更确认",
+          "menuUrl": "alterConfirm.list",
+          "subMenu": []
+        }
+      ]
+    }
+  ],
+  "msg": null,
+  "status": 200
+}

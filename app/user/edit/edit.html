@@ -1,0 +1,34 @@
+<div class="page-header">
+    <h3>用户信息</h3>
+</div>
+<div class="row" id="user-content">
+    <div class="col-xs-2"></div>
+    <div class="col-xs-8">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">用户名</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" ng-model="vm.item.userLogid" ng-disabled="!vm.operate.isAdd" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">真实姓名</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" ng-model="vm.item.userPhone" placeholder="真实姓名">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword2">联系方式</label>
+                <input type="text" class="form-control" id="exampleInputPassword2" ng-model="vm.item.userName" placeholder="联系方式">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword3">所属机构</label>
+                <input type="text" class="form-control" id="exampleInputPassword3" ng-model="vm.item.departmentName" placeholder="所属机构">
+            </div>
+            <button type="text" class="btn btn-primary">提交</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-default" ng-click="vm.cancel()">
+                返回
+            </button>
+
+
+        </form>
+    </div>
+    <div class="col-xs-2"></div>
+</div>

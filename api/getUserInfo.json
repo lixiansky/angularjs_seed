@@ -1,0 +1,22 @@
+{
+  "data" :{
+    "oldUserPass" :null,
+    "roleList" :[],
+    "_key" :null,
+    "userId" :"00f6f3dc4ff111e68e10e3974aac8389",
+    "userLogid" :"test",
+    "userName" :"test",
+    "userIcon" :null,
+    "departmentId" :"1000000",
+    "userStatus" :"0",
+    "departmentName" :"xxxx部门",
+    "userSex" :null,
+    "userPhone" :"111",
+    "userMobile" :"",
+    "userEmail" :"",
+    "userType" :"0",
+    "userToken" :""
+  },
+  "msg" :"",
+  "status" :200
+}

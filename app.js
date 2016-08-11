@@ -12,13 +12,15 @@
             'ncy-angular-breadcrumb',
             'sysApp.layout',
             'sysApp.dashboard',
+            'sysApp.user',
+            'sysApp.demo'
         ])
         .config(appConfig)
         .run(appRun);
 
     appConfig.$inject = ['$urlRouterProvider', '$locationProvider', 'cfpLoadingBarProvider', '$breadcrumbProvider'];
 
-    appRun.$inject = ['$rootScope', '$timeout', '$log', 'cfpLoadingBar', '$templateCache'];
+    appRun.$inject = ['$rootScope', '$timeout', '$log', 'cfpLoadingBar'];
 
     function appConfig($urlRouterProvider, $locationProvider, cfpLoadingBarProvider, $breadcrumbProvider) {
         $urlRouterProvider.otherwise('/');
@@ -47,7 +49,7 @@
 
     }
 
-    function appRun($rootScope, $timeout, $log, cfpLoadingBar, $templateCache) {
+    function appRun($rootScope, $timeout, $log, cfpLoadingBar) {
         $rootScope.$on('$stateChangeStart', function (event, next) {
             cfpLoadingBar.start();
             //jQuery("#loadingDiv").show();

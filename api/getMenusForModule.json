@@ -1,34 +1,18 @@
 ﻿{
   "dataList": [
     {
-      "menuName": "系统菜单",
+      "menuName": "用户管理",
       "menuUrl": "",
       "subMenu": [
         {
-          "menuName": "菜单一",
-          "menuUrl": "attr.list",
-          "subMenu": []
-        },
-        {
-          "menuName": "菜单二",
-          "menuUrl": "struct.list",
-          "subMenu": []
-        },
-        {
-          "menuName": "菜单三",
-          "menuUrl": "cfgRelation.list",
-          "subMenu": []
-        },
-        {
-          "menuName": "菜单四",
-          "menuUrl": "tollgate.list",
-          "subMenu": []
+          "menuName": "用户列表",
+          "menuUrl": "user.list"
         }
       ]
     },
     {
-      "menuName": "其他菜单",
-      "menuUrl": "",
+      "menuName": "Demo",
+      "menuUrl": "demo",
       "subMenu": []
     }
   ],
